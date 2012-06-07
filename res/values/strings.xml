@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ogame Proxy</string>
+    <string name="resources">Ressources</string>
+    <string name="metal_mine">mine de métal</string>
+    <string name="cristal_mine">mine de cristal</string>
+    <string name="deuterium_mine">mine de deutérium</string>
+
+</resources>
