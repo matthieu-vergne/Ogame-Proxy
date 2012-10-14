@@ -11,6 +11,7 @@ import android.widget.Spinner;
 
 import com.ogamelib.LeveledElement;
 import com.ogamelib.Planet;
+import com.ogamelib.Position;
 import com.ogamelib.User;
 import com.ogameproxy.view.LeveledElementView;
 import com.ogameproxy.view.ListLayout;
@@ -87,7 +88,7 @@ public class MainActivity extends Activity {
 		user.setName("test-user");
 
 		{
-			Planet planet = new Planet();
+			Planet planet = new Planet(12800, -32, 8, new Position(4, 358, 12));
 			planet.getMetal().setAmount(10L);
 			planet.getCrystal().setAmount(20L);
 			planet.getDeuterium().setAmount(30L);
@@ -105,7 +106,7 @@ public class MainActivity extends Activity {
 		}
 
 		{
-			Planet planet = new Planet();
+			Planet planet = new Planet(12800, -32, 8, new Position(4, 359, 12));
 			planet.getMetal().setAmount(100L);
 			planet.getCrystal().setAmount(200L);
 			planet.getDeuterium().setAmount(300L);
