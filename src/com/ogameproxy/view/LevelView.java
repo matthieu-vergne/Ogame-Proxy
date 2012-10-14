@@ -3,7 +3,7 @@ package com.ogameproxy.view;
 import android.content.Context;
 import android.widget.TextView;
 
-import com.ogameproxy.ogame.LeveledElement;
+import com.ogamelib.LeveledElement;
 
 public class LevelView extends TextView {
 	private LeveledElement element;

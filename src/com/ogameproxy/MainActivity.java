@@ -9,9 +9,9 @@ import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.Spinner;
 
-import com.ogameproxy.ogame.LeveledElement;
-import com.ogameproxy.ogame.Planet;
-import com.ogameproxy.ogame.User;
+import com.ogamelib.LeveledElement;
+import com.ogamelib.Planet;
+import com.ogamelib.User;
 import com.ogameproxy.view.LeveledElementView;
 import com.ogameproxy.view.ListLayout;
 

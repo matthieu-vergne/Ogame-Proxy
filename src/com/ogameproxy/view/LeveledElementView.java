@@ -3,7 +3,7 @@ package com.ogameproxy.view;
 import android.content.Context;
 import android.widget.TableRow;
 
-import com.ogameproxy.ogame.LeveledElement;
+import com.ogamelib.LeveledElement;
 
 public class LeveledElementView extends TableRow {
 	private LabelView label;
